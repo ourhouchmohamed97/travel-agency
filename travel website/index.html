@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="folder.imgs/travel.png" />
+    <title>Travel Time</title>
+  </head>
+  <body>
+    <div id="home" class="main">
+      <header>
+        <img src="folder.imgs/travel logo.png" class="logo" />
+        <nav class="navbar">
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="intro">
+        <h2>Let's Go Around The <span> World.</span></h2>
+        <p>
+          Welcome to our travel website, where dreams meet reality.
+          Explore enchanting destinations and embrace boundless possibilities.
+          Discover insider tips, unique experiences, and hidden treasures.
+          Let our website be your passport to a world waiting to be explored.
+        </p>
+      </div>
+      <div class="sign-up">
+        <a href="login.html"><span>Sign up for free! </span></a>
+      </div>
+      <div class="sliders">
+        <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <div class="slide first">
+            <img src="folder.imgs/maldive.jpg" alt="" />
+        </div>
+        <div class="slide">
+            <img src="folder.imgs/philippines.jpg" alt="" />
+        </div>
+        <div class="slide">
+            <img src="folder.imgs/zanzibar.jpg" alt="" />
+        </div>
+        <div class="navigator-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+        </div>
+        <div class="navigator-manuel">
+            <label for="radio1" class="manuel-btn"></label>
+            <label for="radio2" class="manuel-btn"></label>
+            <label for="radio3" class="manuel-btn"></label>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="search" id="destination">
+      <div class="plan">
+        <h2>DISCOVER AND FIND YOUR JOURNEY</h2>
+        <div class="bar">
+        <input type="text" class="searchTerm" placeholder="Find Your Destination">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+      </button>
+        </div>
+      </div>
+    </div>
+    <div class="bg" style="background-color: #e7e5e8;" >
+      <div class="title">
+        <h1>TOP DESTINATIONS</h1>
+      </div>
+      <div class="contain">
+        <div class="options">
+          <div
+            class="option active"
+            style="background-image: url(countries.imgs/mar.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="countries.imgs/morocco.png"></img>
+              </div>
+              <div class="info">
+                <div class="country">Morocco</div>
+                <div class="city">Chefchaouen</div>
+              </div>
+            </div>
+          </div>
+          <div class="option" style="background-image: url(countries.imgs/indiaa.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="countries.imgs/india.png"></img>
+              </div>
+              <div class="info">
+                <div class="country">India</div>
+                <div class="city">Agra</div>
+              </div>
+            </div>
+          </div>
+          <div class="option" style="background-image: url(countries.imgs/swisra.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="countries.imgs/switzerland.png"></img>
+              </div>
+              <div class="info">
+                <div class="country">Switzerland</div>
+                <div class="city">Geneva</div>
+              </div>
+            </div>
+          </div>
+          <div class="option" style="background-image: url(countries.imgs/burj\ khalifa.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="countries.imgs/united-arab-emirates.png"></img>
+              </div>
+              <div class="info">
+                <div class="country">United Arab Emirates</div>
+                <div class="city">Dubai</div>
+              </div>
+            </div>
+          </div>
+          <div class="option" style="background-image: url(countries.imgs/turkech.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="icon">
+                <img src="countries.imgs/turkey.png"></img>
+              </div>
+              <div class="info">
+                <div class="country">Turkey</div>
+                <div class="city">Istanbul</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="service">
+      <div class="titre">
+        <h2>Our Top Trips</h2>
+      </div>
+      <div class="trips">
+        <div id="mar" class="trip1">
+          <div class="head">
+            <i class="fa-solid fa-star"></i>
+            <h6>4.9</h6>
+            </div>
+          <img src="Marrakech.jpg" alt="">
+          <h4>Trip to Marrakech <sub>/ Morocco</sub></h2>
+          <p>Embark on a captivating Marrakech pack trip through the vibrant markets, 
+            ancient alleys, and exotic landscapes of Morocco.
+          </p>
+          <div class="days" style="display: flex; gap: 50px;"><i class="fa-solid fa-hourglass"></i> 7 days</div>
+          <div class="group" style="display: flex; gap: 45px;"><i class="fa-solid fa-user-group"></i> in groups</div>
+          <div id="end" style="position: relative; top: 20px; display: flex; gap: 25px;">
+            <div id="prix"><span>Price</span> : <span style="font-weight: 800; color: rgb(165, 7, 7);">500</span> $</div>
+            <div class="book"><a href="#">Book Now</a></div>
+          </div>
+        </div>
+        <div id="sin" class="trip1">
+          <div class="head">
+            <i class="fa-solid fa-star"></i>
+            <h6>4.8</h6>
+          </div>
+          <img src="SINGAPORE.jpg" alt="">
+          <h4>Trip to Marina Bay <sub>/ Singapore</sub></h2>
+          <p>Experience the epitome of cosmopolitan charm and natural splendor on a pack trip to Marina Bay, Singapore.
+          </p>
+          <div class="days" style="display: flex; gap: 50px;"><i class="fa-solid fa-hourglass"></i> 15 days</div>
+          <div class="group" style="display: flex; gap: 45px;"><i class="fa-solid fa-user-group"></i> in groups</div>
+          <div id="end" style="position: relative; top: 20px; display: flex; gap: 25px;">
+            <div id="prix"><span>Price</span> : <span style="font-weight: 800; color: rgb(165, 7, 7);">800</span> $</div>
+            <div class="book"><a href="#">Book Now</a></div>
+          </div>
+        </div>
+        <div id="tai" class="trip1">
+          <div class="head">
+            <i class="fa-solid fa-star"></i>
+            <h6>4.9</h6>
+          </div>
+          <img src="tailand.jpg" alt="">
+          <h4>Trip to Koh Phi Phi <sub>/ Thailand</sub></h2>
+          <p>Discover tropical paradise on a pack trip to Koh Phi Phi, Thailand, where pristine beaches, 
+            turquoise waters, and breathtaking cliffs beckon adventurers.
+          </p>
+          <div class="days" style="display: flex; gap: 50px;"><i class="fa-solid fa-hourglass"></i> 10 days</div>
+          <div class="group" style="display: flex; gap: 45px;"><i class="fa-solid fa-user-group"></i> in groups</div>
+          <div id="end" style="position: relative; top: 20px; display: flex; gap: 25px;">
+            <div id="prix"><span>Price</span> : <span style="font-weight: 800; color: rgb(165, 7, 7);">750</span> $</div>
+            <div class="book"><a href="#">Book Now</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="benefit" id="benefit">
+      <div class="title">
+        <div class="title1"><h4>special &nbsp;features</h4></div>
+        <div class="title2"><h2>See some benefit of joining us</h2></div>
+      </div>
+      <div class="content">
+        <div class="rov">
+        <div class="first">01</div>
+        <h2>Get best deals</h2>
+        <p>Find help with your booking and travel plans and see what to expect along you journey today with us.</p>
+        </div>
+        <div class="rov">
+          <div class="second">02</div>
+          <h2>100% price transparency</h2>
+          <p>Ensure 100% price transparency by thoroughly researching and comparing prices from multiple sources before making a purchase.</p>
+          </div>
+          <div class="rov">
+            <div class="third">03</div>
+            <h2>Travel with more confidence</h2>
+            <p>Stay aware of your surroundings, trust your instincts, and maintain a positive mindset to navigate unfamiliar environments with confidence.</p>
+            </div>
+      </div> 
+      <div class="big"></div> 
+      <div class="small"></div>
+    </div>
+    <div class="price">
+      <section class="pricing">
+        <div class="card-wrapper">
+          <div class="card-header">
+            <img src="6998330-removebg-preview.png" alt="">
+            <h2>Basic</h2>
+          </div>
+          <div class="card-detail">
+            <p><span class="fas fa-check check"></span> <b>&nbsp;</b> Affordable access to essential travel resources.</p>
+            <p><span class="fas fa-check check"></span> <b>&nbsp;</b> Ideal for families and explorers seeking personalized travel experiences.</p>
+            <p><span class="fas fa-times nocheck "></span> &nbsp; Elevate your journey with advanced features and support.</p>
+            <p><span class="fas fa-times nocheck "></span> &nbsp; Unlimited access to curated itineraries and exclusive experiences.</p>
+          </div>
+          <div class="card-price">
+            <p><sup>$ </sup>10<sub>/month</sub></p>
+          </div>
+          <button class="card-button">I want it</button>
+        </div>
+        <div class="card-wrapper">
+          <div class="card-header">
+            <img src="4738060-removebg-preview.png" alt="">
+            <h2>Standard</h2>
+          </div>
+          <div class="card-detail">
+            <p><span class="fas fa-check check"></span> <b>&nbsp;</b> Affordable access to essential travel resources.</p>
+            <p><span class="fas fa-check check"></span> <b>&nbsp;</b> Ideal for families and explorers seeking personalized travel experiences.</p>
+            <p><span class="fas fa-check check "></span>&nbsp; Elevate your journey with advanced features and support.</p>
+            <p><span class="fas fa-times nocheck "></span>&nbsp; Unlimited access to curated itineraries and exclusive experiences.</p>
+          </div>
+          <div class="card-price">
+            <p><sup>$ </sup>25<sub>/month</sub></p>
+          </div>
+          <button class="card-button">I want it</button>
+        </div>
+        <div class="card-wrapper">
+          <div class="card-header">
+            <img src="3985678-removebg-preview.png" alt="">
+            <h2>Premier</h2>
+          </div>
+          <div class="card-detail">
+            <p><span class="fas fa-check check"></span> <b>&nbsp;</b> Affordable access to essential travel resources.</p>
+            <p><span class="fas fa-check check"></span> <b>&nbsp;</b> Ideal for families and explorers seeking personalized travel experiences.</p>
+            <p><span class="fas fa-check check "></span>&nbsp; Elevate your journey with advanced features and support.</p>
+            <p><span class="fas fa-check check "></span>&nbsp; Unlimited access to curated itineraries and exclusive experiences.</p>
+          </div>
+          <div class="card-price">
+            <p><sup>$ </sup>35<sub>/month</sub></p>
+          </div>
+          <button class="card-button">I want it</button>
+        </div>
+      </section>
+    </div>
+    <div id="sponsors">
+    <h2><span>Travel Time</span> sponsored by </h2>
+    <div class="line1">
+      <div class="l1"><img src="sponsors/Emirate-removebg-preview.png" alt=""></div>
+      <div class="l1"><img src="sponsors/Etihad-Airways-Logo.png" alt=""></div>
+      <div class="l1"><img src="sponsors/Logo_Qatar_Airways.svg.png" alt=""></div>
+    </div>
+    <div class="line2">
+      <div class="l2"><img src="sponsors/Booking-Logo.png" alt=""></div>
+      <div class="l2"><img src="sponsors/Airbnb_Logo_Bélo.svg.png" alt=""></div>
+      <div class="l2"><img src="sponsors/trivago_logo_a-removebg-preview.png" alt=""></div>
+    </div>
+    <div class="line3">
+      <div class="l3"><img src="sponsors/kfc-removebg-preview.png" alt=""></div>
+      <div class="l3"><img src="sponsors/Starbucks-Emblem.png" alt=""></div>
+      <div class="l3"><img src="sponsors/subway-removebg-preview.png" alt=""></div>
+    </div>
+    </div>
+    <div id="about">
+      <div class="description">
+        <h2>About <span>Travel Time</span> website.</h2>
+        <p>
+          Welcome to our travel website, where we are passionate about helping
+          you find your perfect trip. Our website is designed with your
+          wanderlust in mind, offering a comprehensive platform that connects
+          you to a world of exciting destinations and unforgettable experiences.
+          Whether you're seeking a relaxing beach getaway, an adventurous hiking
+          expedition, or a cultural exploration in a bustling city, our website
+          is your go-to resource. With user-friendly navigation and powerful
+          search tools, we make it effortless for you to browse through a vast
+          array of travel options, compare prices, and read authentic reviews
+          from fellow travelers. Our dedicated team has meticulously curated a
+          collection of handpicked itineraries and recommendations, ensuring
+          that every trip suggestion is tailored to your preferences and
+          interests. From flight bookings and accommodation to local attractions
+          and hidden gems, we strive to provide you with all the essential
+          information you need to plan your dream vacation. So, embark on a
+          journey of discovery with our travel website and let us help you find
+          the trip of a lifetime.
+        </p>
+      </div>
+    </div>
+    <div class="comments">
+      <section>
+        <h2>Hear what our great <br><span>customer </span> say :</h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="right-quote.png" class="quote" />
+                <div class="content">
+                  <p>
+                    I have used several travel websites in the past, but this
+                    one stands out for its exceptional customer service. When I
+                    encountered an issue with a hotel booking. It's rare to find
+                    such dedication in the travel industry, I highly appreciate
+                    their efforts.
+                  </p>
+                </div>
+                  <div class="details">
+                    <img src="user1.jpg" alt="" />
+                    &nbsp;
+                    <h3>David</h3>
+                  </div>
+                  <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="right-quote.png" class="quote" />
+                <div class="content">
+                  <p>
+                    I recently used this travel website to book a family trip,
+                    and it was a breeze. The website offers a wide range of
+                    options for accommodations, flights, and activities, making
+                    it easy to customize our vacation to our preferences.
+                  </p>
+                </div>
+                <div class="details">
+                  <img src="user2.jpg" alt="" />
+                  &nbsp;
+                  <h3>John Murphy</h3>
+                </div>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="right-quote.png" class="quote" />
+                <div class="content">
+                  <p>
+                    I have been using this travel website for all my vacation
+                    bookings, and it has never disappointed me. The user
+                    interface is clean and easy to navigate, and I can always
+                    find the best deals on flights and hotels.
+                  </p>
+                  <div class="details">
+                    <img src="user3.jpg" alt="" />
+                    &nbsp;
+                    <h3>Sarah</h3>
+                  </div>
+                  <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="right-quote.png" class="quote" />
+                <div class="content">
+                  <p>
+                    I recently booked a multi-city trip through this travel
+                    website, and I must say it exceeded my expectations. The
+                    website's interface made it easy to plan complex
+                    itineraries, and the prices were surprisingly affordable.
+                  </p>
+                </div>
+                  <div class="details">
+                    <img src="user4.jpeg" alt="" />
+                    &nbsp;
+                    <h3>Emma Williams</h3>
+                  </div>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="right-quote.png" class="quote" />
+                <div class="content">
+                  <p>
+                    As a frequent traveler, I rely heavily on this travel
+                    website to find the best deals. What sets it apart is the
+                    comprehensive search options and filters. delivers accurate
+                    results every time. It has become my go-to platform for all
+                    my travel needs.
+                  </p>
+                </div>
+                <div class="details">
+                    <img src="user5.jpg" alt="" />
+                    &nbsp;
+                    <h3>Daniel</h3>
+                </div>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonialBox">
+                <img src="right-quote.png" class="quote" />
+                <div class="content">
+                  <p>
+                    I stumbled upon this travel website while planning my
+                    honeymoon, and it turned out to be a hidden gem. Not only
+                    did it offer excellent deals, but it also had a great
+                    selection of honeymoon packages tailored to different
+                    destinations.
+                  </p>
+                </div>
+                <div class="details">
+                    <img src="user6.jpg" alt="" />
+                    &nbsp;
+                    <h3>James</h3>
+                </div>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="control">
+            <div class="news-slider-arrows">
+              <button id="left" class="news-slider-prev">
+                <div class="icon">
+                <i class="fa-solid fa-arrow-left"></i>
+                </div>
+              </button>
+              <button id="right" class="news-slider-next">
+                <div class="icon">
+                <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </button>
+            </div>
+          <div class="swiper-pagination">
+          <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+          <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+          <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+          <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+          <span class="swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 5"></span>
+          </div>
+        </div>
+      </section>
+    </div>   
+    <div id="contact">
+      <div class="img">
+        <img src="istockphoto-1366023601-612x612.jpg" alt="">
+        <p>
+          Looking for more information or want to try one of our paid<span>
+          Travel Time </span>plans? Submit your information and an<span> 
+          Travel Time </span>representative will follow up with you as 
+          soon as possible.Have a simple question?<a href="#FAQ">Check out our FAQ.</a>
+        </p>
+      </div>
+      <div class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+          <div class="row">
+            <div class="column1">
+              <label id="first" for="first-name">First Name<span>*</span></label>
+              <br>
+              <input type="text" id="first-name" placeholder=" e.g. John">
+              <label id="mail" for="email">Email<span>*</span></label>
+              <br>
+              <input type="email" id="email" placeholder=" name@gmail.com">
+            </div>
+            <div class="column2">
+              <label id="last" for="last-name">Last Name<span>*</span></label>
+              <br>
+              <input type="text" id="last-name" placeholder=" Doe">
+              <label id="tele" for="phone">Phone Number</label>
+              <br>
+              <input type="number" id="phone" placeholder=" 99 999 999">
+            </div> 
+          </div>
+          <p>Fields marked with an asterisk (*) are required</p>
+          <label id="discuss" for="text">What would you like to discuss?<span>*</span></label>
+          <br>
+          <textarea id="text" placeholder=" About...." cols="47" rows="8"></textarea>
+          <input type="submit" name="" id="submit">
+        </form>
+      </div>
+    </div>
+    <div class="body" id="FAQ">
+    <div class="FAQ">
+      <h2>Frequently Asked Questions</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title"
+              >What forms of payment do you accept?</span
+            ><span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              We accept various forms of payment, 
+              including credit cards (Visa, Mastercard, 
+              American Express, etc.) and sometimes debit cards. 
+              The specific payment options will be displayed during 
+              the checkout process.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">Can I cancel or modify my booking after it's been confirmed?</span
+            ><span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              The cancellation and modification policies vary depending on the airlines, 
+              hotels, or other travel services you've booked. Some bookings may be 
+              non-refundable or have specific cancellation deadlines, 
+              while others may offer more flexibility. 
+              It's best to review the terms and conditions provided during the booking 
+              process or contact our customer service for assistance.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false">
+            <span class="accordion-title">What if I encounter issues during my trip?</span
+            ><span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              If you encounter any issues during your trip, such as flight delays, 
+              cancellations, or problems with your hotel reservation, 
+              please contact our customer service immediately. 
+              We have dedicated support teams available to assist you and help resolve 
+              any travel-related issues.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false">
+            <span class="accordion-title">Can I purchase travel insurance through your website?</span
+            ><span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Yes, we offer the option to purchase travel insurance through our website. 
+              During the booking process, you will have the opportunity to add travel insurance 
+              to your itinerary. We highly recommend considering travel insurance for added protection 
+              and peace of mind during your trip.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false">
+            <span class="accordion-title">Do you offer any rewards or loyalty programs for frequent travelers?</span
+            ><span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Yes, we have a loyalty program for frequent travelers. By signing up for our loyalty program, 
+              you can earn points or rewards for every booking made through our website. 
+              These points can be redeemed for future discounts or benefits.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="subscribe">
+      <div class="bg-sub">
+        <h3>Never miss our offers</h3>
+        <h5>Subscribe and be among the first to receive our exclusive offers.</h5>
+        <a href="login.html"><button id="submit">Get in touch</button></a>
+        <a href="#service"><button class="service">Our service</button></a>
+        </div>
+    </div>
+    <div class="footer">
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#service">Our services</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get help</h4>
+            <ul>
+              <li><a href="#FAQ">FAQ</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Order status</a></li>
+              <li><a href="#">Payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Online shop</h4>
+            <ul>
+              <li><a href="#service">Trip</a></li>
+              <li><a href="#benefit">Benefit</a></li>
+              <li><a href="#destination">Destination</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="rev-link">
+        <a href="">Terms and Conditions </a> | <a href=""> Privacy Policy </a> | <a href="">  Cookies Policy</a>
+        </div>
+        © 2023 Review Travel. All rights reserved.
+      </div>
+    </footer>
+    </div>
+        <!-- js links -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
